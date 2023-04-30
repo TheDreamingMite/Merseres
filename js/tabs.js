@@ -19,7 +19,6 @@ for(let btn of tabsHeandlerElems){
             }
         })
         titleDesign.forEach(title =>{
-            //console.dir(title.dataset.tabsHandler);
             if(title.dataset.tabsHandler===btn.dataset.tabsHandler){
                title.classList.remove('hidden')
             }else{
@@ -28,6 +27,3 @@ for(let btn of tabsHeandlerElems){
         })
      })
 }
-//.dataset.tabsHandler
-
-console.log(tabsContentElems);
